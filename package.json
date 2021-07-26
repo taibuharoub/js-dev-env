@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test:watch": "npm run test -- --watch",
     "prestart": "babel-node buildScripts/startMessage.js",
-    "start": "npm-run-all --parallel open:src lint:watch",
+    "start": "npm-run-all --parallel open:src lint:watch test:watch",
     "open:src": "babel-node buildScripts/scrServer.js",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel start localtunnel",
