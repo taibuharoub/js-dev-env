@@ -23,6 +23,14 @@ app.get("/", (req, res, next) => {
   res.sendFile(path.join(__dirname, "../src/index.html"));
 });
 
+//Mock an api call
+app.get("/users", (req, res, next) => {
+  res.json([
+    { id: 1, firName: "Ty", lastNmae: "haro", email: "ty@ty100.com" },
+    { id: 2, firName: "Taibu", lastNmae: "haroub", email: "taibu@ty100.com" },
+  ]);
+});
+
 app.listen(port, (err) => {
   if (err) {
     console.log(err);
