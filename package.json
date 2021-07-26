@@ -12,7 +12,8 @@
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel start localtunnel",
     "lint": "esw webpack.config.* src buildScripts --color",
-    "lint:watch": "npm run lint -- --watch"
+    "lint:watch": "npm run lint -- --watch",
+    "generate-mock-data": "babel-node buildScripts/generateMockData"
   },
   "repository": {
     "type": "git",
