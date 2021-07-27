@@ -12,10 +12,39 @@
   </a>
 </p>
 
-> A robust development environment that handles bundling, linting, transpiling and testing
+> A robust development environment that handles bundling, linting, transpiling and testing with NodeJS and ExpressJS as the development sever
 
 ### 🏠 [Homepage](https://github.com/taibuharoub/js-dev-env#readme)
 
+## Features
+- Package Management
+- Bundling
+- Minification
+- Linting
+- Transpiling
+- Mock API Framework
+- Dynamic HTML Generation
+- Continous Integration Server
+- Automation [depolyment, build and testing]
+
+## Setup
+Clone this repo to your local machine and run `npm install` to install all the dependencies.
+
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+Production Build
+```sh
+npm start
+```
+Development Build
+```sh
+npm run build
+```
 ## Author
 
 * Website: https://taibuharoub.github.io/haro-portfolio/
