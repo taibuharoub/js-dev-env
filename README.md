@@ -45,6 +45,10 @@ Development Build
 ```sh
 npm run build
 ```
+Test
+```sh
+npm test
+```
 ## Author
 
 * Website: https://taibuharoub.github.io/haro-portfolio/
