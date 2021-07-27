@@ -26,8 +26,8 @@ app.get("/", (req, res, next) => {
 //Mock an api call
 app.get("/users", (req, res, next) => {
   res.json([
-    { id: 1, firName: "Ty", lastNmae: "haro", email: "ty@ty100.com" },
-    { id: 2, firName: "Taibu", lastNmae: "haroub", email: "taibu@ty100.com" },
+    { "id": 1, "firstName": "Ty", "lastName": "haro", "email": "ty@ty100.com" },
+    { "id": 2, "firstName": "Taibu", "lastName": "haroub", "email": "taibu@ty100.com" },
   ]);
 });
 
