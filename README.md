@@ -17,7 +17,7 @@
 ### 🏠 [Homepage](https://github.com/taibuharoub/js-dev-env#readme)
 
 ## Features
-- Package Management
+- Packages Management
 - Bundling
 - Minification
 - Linting
